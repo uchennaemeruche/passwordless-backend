@@ -1,0 +1,9 @@
+# POST http://localhost:4000/api/auth/send-magic-link HTTP/1.1
+# GET http://localhost:4000/api/auth/token?code=850725 HTTP/1.1
+GET http://localhost:4000/api/auth/user HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOGM3NDQzOTkyZWMxOTgwZGE2ZDQ0NyIsImlhdCI6MTYxOTgxNzUzOSwiZXhwIjoxNjIwNDIyMzM5fQ.DjFGZ80vlMzvj1j7cz_j9SNsVYSu-dRG3ov53-IFYPI
+
+{
+    "email": "uchenna@gmail.com"
+}
